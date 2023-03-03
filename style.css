@@ -1,0 +1,90 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+
+.abdomen
+{
+    height:100vh;
+    width:100%;
+
+    background-image: url(./Images/viber_image_2022-09-07_15-54-04-496.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+/*logo Design*/
+.style
+{
+color: white;
+font-size:40px;
+letter-spacing: 3px;
+cursor:pointer;
+margin-left: 80px;
+}
+
+/*span design*/
+span
+{
+    color:yellow;
+}
+
+
+/*Nav Bar Design*/
+nav
+{
+display: flex;
+width: 100%;
+align-items: center;
+flex-wrap: wrap;
+padding: 8px 0;
+}
+
+/*Nav Bar Unordered list style*/
+nav ul 
+{
+    flex:4;
+    text-align:right;
+    padding-right:35px;
+     
+
+}
+
+
+/*Nav Bar list item style*/
+
+nav ul li
+{
+display: inline-block;
+list-style: none;
+margin:35px 45px;
+}
+
+/*Nav Bar list item name style*/
+nav ul li a
+{
+    color:white;
+    text-decoration: none;
+    position:relative;
+    font-size:19px;
+}
+
+nav ul li a::after
+{
+content: "";
+width:80%;
+height:4px;
+position:absolute;
+bottom:-10px;
+left:50%;
+transform:translatex(-45%);
+background:white;
+transition:width 0.4s;
+}
+
+nav ul li a:hover::after
+{
+    width: 50%;
+}
