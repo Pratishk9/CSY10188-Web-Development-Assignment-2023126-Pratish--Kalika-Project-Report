@@ -4,7 +4,8 @@
     margin: 0px;
 }
                                             /*Page 1 index.html CSS Page Starts*/
-/*Nav Bar Section Style*/
+
+/*Index Background Style End*/
 .abdomen
 {
     height:100vh;
@@ -16,7 +17,7 @@
     position:relative;
 }
 
-/*Nav Bar Section Style finished*/
+/*Index Background style End*/
 
 /*Nav Bar Design*/
 nav
@@ -80,11 +81,16 @@ nav ul li a:hover::after
 /*logo Design*/
 .style
 {
-color: white;
+display:flex;
+
 font-size:50px;
-letter-spacing: 3px;
-cursor:pointer;
-margin-left: 80px;
+font-weight: 600;
+color:white;
+letter-spacing: 4px;
+cursor: pointer;
+position:fixed;
+left: 110px;
+
 }
 
 /*span design*/
@@ -98,15 +104,15 @@ span
 {
     color:white;
     position:absolute;
-    bottom: 30%;
+    bottom:29%;
     right:5%;
 }
 
 .Glottis h1
 {
     color:white;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight:500;
 }
 
 .Glottis h2
@@ -120,7 +126,7 @@ margin-left:-10px;
 .Glottis p
 {
     color:white;
-    font-size:38px;
+    font-size:30px;
     font-weight:300;
 }
 /*Content of the index finished*/
@@ -128,6 +134,7 @@ margin-left:-10px;
 /*button style with the copyright disclaimer*/
 button
 {
+    
 color:white;
 background:#d77e39;
 font-size:15px;
@@ -187,23 +194,66 @@ h1
                                           /*Page 3 of the Contact.html Starts*/
 
 
-body
+.prabesh
 {
     height: 100vh;
     width: 100%;
-    background-image:url(./Images/pexels-quintin-gellar-313782.jpg);
+    background-image:url(./Images/pexels-thisisengineering-3862132.jpg);
     background-position: center;
     background-size: cover;
     position:relative;
 }
 
-h1
+.heading
+
 {
+
     color:white;
-    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    position:relative;
+    text-align:center;
+
 }
 
-.cord
+.frog
 {
-    left:500px;
+    position:relative;
+    text-align:center;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    
+    text-align:center;
+    width:700px;
+    background:#caa21d ;
+    border-radius:10px;
+    top:4%;
+    left:26%;
+
+    
+    
+
+}
+
+input
+{
+    width:30%;
+    border:2px solid;
+    padding:7px 15px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    border:2px solid;
+    resize:none;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit
+
+{
+    color:red;
 }
