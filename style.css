@@ -13,6 +13,7 @@
 
     background-image: url(./Images/viber_image_2022-09-07_15-54-04-496.jpg);
     background-position: center;
+    
     background-size: cover;
     position:relative;
 }
@@ -111,18 +112,29 @@ span
 .Glottis h1
 {
     color:white;
-    font-size: 45px;
+    font-size: 40px;
     font-weight:500;
 }
 
 .Glottis h2
 {
-    color:white;
-font-size:80px;
-line-height:140px;
-margin-left:-10px;
+    color:transparent;
+    font-size:85px;
+    line-height:140px;
+    margin-left:-10px;
+    -webkit-text-stroke: 2px white;
+    background:url(./Images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 10s linear infinite;
 }
 
+@keyframes back 
+{
+   100%{
+    background-position: 2000px 0;
+   } 
+}
 .Glottis p
 {
     color:white;
@@ -140,13 +152,13 @@ background:#d77e39;
 font-size:15px;
 font-weight: 300;
 line-height: 20px;
-padding: 10px 18px;
-border: 4px solid white;
+padding: 10px 17px;
+border: 4px solid rgb(255, 255, 255);
 border-radius:45px;
 cursor: pointer;
 position: relative;
-left: 790px;
-top: 410px;
+left: 745px;
+top: 430px;
 
 }
 
@@ -156,11 +168,33 @@ top: 410px;
     color:white;
     position: fixed;
     left:1255px;
-    top:655px;
+    top:695px;
     
 }
 
 /*button style with the copyright disclaimer*/
+
+
+/*Social Media Icon Starts*/
+.zero
+{
+    position: absolute;
+    right:2%;
+    bottom:10%;
+}
+
+
+.zero img
+{
+width:28px;
+display:block;
+margin:22px 7px ;
+}
+/*Social Media Icon Ends*/
+
+
+
+
 
                                             /*Page 1 index.html CSS Page Ends*/
 
@@ -194,15 +228,21 @@ h1
                                           /*Page 3 of the Contact.html Starts*/
 
 
+
+        /*Form Background Starts*/
 .prabesh
 {
     height: 100vh;
     width: 100%;
-    background-image:url(./Images/pexels-thisisengineering-3862132.jpg);
+    background-image:url(./Images/viber_image_2022-09-07_15-54-04-496.jpg);
     background-position: center;
     background-size: cover;
     position:relative;
 }
+
+        /*Form Background Ends*/
+
+        /*Form Heading Starts*/
 
 .heading
 
@@ -212,9 +252,14 @@ h1
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
     position:relative;
-    text-align:center;
+    text-align: ;
 
 }
+        /*Form Background Ends*/
+
+
+
+      /*Form Main Box Starts*/
 
 .frog
 {
@@ -225,35 +270,47 @@ h1
     color:whitesmoke;
     
     text-align:center;
-    width:700px;
+    width:500px;
     background:#caa21d ;
     border-radius:10px;
-    top:4%;
-    left:26%;
+    
+    left:60%;
 
     
     
 
 }
 
+        /*Form Main Box Ends*/
+
+
+        /*Form Main Box Inputs Style*/
+
 input
 {
-    width:30%;
+    width:35%;
     border:2px solid;
     padding:7px 15px;
     border-radius: 10px;
 }
+        /*Form Main Box Inputs Style Ends*/
+
+        /*Form Main Box Textarea Style*/
+
 
 textarea
 {
     border:2px solid;
     resize:none;
     border-radius: 10px;
+    text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.submit
+        /*Form Main Box Textarea Style Ends*/
 
+.bladder
 {
-    color:red;
+    text-decoration: none;
+    color:white;
 }
